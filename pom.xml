@@ -76,16 +76,6 @@
 							<goal>report</goal>
 						</goals>
 					</execution>
-					<execution>
-						<!-- 3 -->
-						<!-- check — This is another goal that is optional. It can be used to 
-						fail maven builds in case some provided rules fail. 
-						-->
-						<id>jacoco-check</id>
-						<goals>
-							<goal>check</goal>
-						</goals>
-					</execution>
 				</executions>
 			</plugin>
 			<!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->

@@ -11,17 +11,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calculator with JavaScript</title>
-    <script src="script.js" defer></script>
+    <title>BMI Calculator</title>
 </head>
 <body>
     <div class="wrapper">
         <p>Height in CM:
-            <input type="text" id="height"><br><span id="height_error"></span>
+            <input type="text" id="height"><br>
         </p>
 
         <p>Weight in KG:
-            <input type="text" id="weight"><br><span id="weight_error"></span>
+            <input type="text" id="weight"><br>
         </p>
 
         <button id="btn">Calculate</button>

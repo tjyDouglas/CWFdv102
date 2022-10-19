@@ -41,7 +41,6 @@ public class App
 			bmi = (weight)/(height*height);
 			 
 			return bmi;
-			
 		}
 		
 		
